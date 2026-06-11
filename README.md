@@ -135,26 +135,6 @@ Repeat for many steps until the loss is small.
 └── README.md    # This file
 ```
 
-## Upload to GitHub
-
-From this folder:
-
-```bash
-# Initialize git (first time only)
-git init
-
-# Stage and commit
-git add main.py README.md .gitignore
-git commit -m "Add linear regression training tutorial from scratch"
-
-# Create a new repo on GitHub, then connect and push
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your GitHub details.
-
 ## License
 
 Free to use for learning and teaching.
